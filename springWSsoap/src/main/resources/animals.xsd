@@ -1,0 +1,27 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://soapapp.com/ws"
+           targetNamespace="http://soapapp.com/ws" elementFormDefault="qualified">
+
+    <xs:element name="animalRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="animalName" type="xs:string" minOccurs="1" maxOccurs="3"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="animalResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="animal" type="tns:animal" minOccurs="0" maxOccurs="3"/>
+                <xs:element name="errorMsg" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="animal">
+        <xs:all>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="countryOfOrigin" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="errorMsg" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        </xs:all>
+    </xs:complexType>
+    
+</xs:schema>
