@@ -3,3 +3,6 @@ http://stackoverflow.com/questions/5402053/configuring-drools-and-maven-and-writ
 http://stackoverflow.com/questions/5141301/how-to-deploy-drools-flow-and-rules-by-my-web-application
 
 
+https://docs.jboss.org/drools/release/6.0.0.CR5/droolsjbpm-introduction-docs/html_single/
+
+
