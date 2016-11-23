@@ -1,0 +1,5 @@
+IMP one: http://www.mastertheboss.com/jboss-jbpm/drools/drools-and-maven-example-project
+http://stackoverflow.com/questions/5402053/configuring-drools-and-maven-and-writing-hello-world-application-using-them
+http://stackoverflow.com/questions/5141301/how-to-deploy-drools-flow-and-rules-by-my-web-application
+
+
